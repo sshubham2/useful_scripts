@@ -6,8 +6,7 @@
 
 import venv
 from pathlib import Path
-from subprocess import run, call
-import sys
+from subprocess import run
 
 env_path = Path.cwd()/'my-env'
 venv.create(env_path, with_pip=True)
